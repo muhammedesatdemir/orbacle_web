@@ -9,37 +9,57 @@ export function MysticalOrb({ isRevealing }: MysticalOrbProps) {
   return (
     <div className="orb-wrapper">
       <motion.div
-        className="orb-image-container"
+        className="orb-container"
         animate={{
           scale: isRevealing ? [1, 1.1, 1.05, 1.15, 1] : 1,
-          filter: isRevealing
-            ? [
-                'drop-shadow(0 0 40px rgba(138, 43, 226, 0.6)) brightness(1)',
-                'drop-shadow(0 0 80px rgba(212, 175, 55, 1)) brightness(1.3)',
-                'drop-shadow(0 0 60px rgba(0, 229, 255, 0.8)) brightness(1.2)',
-                'drop-shadow(0 0 100px rgba(255, 215, 0, 1)) brightness(1.4)',
-                'drop-shadow(0 0 40px rgba(138, 43, 226, 0.6)) brightness(1)',
-              ]
-            : 'drop-shadow(0 0 40px rgba(138, 43, 226, 0.6)) brightness(1)',
         }}
         transition={{
           duration: 2.5,
           ease: 'easeInOut',
         }}
       >
-        <motion.img
-          src="/orb.png"
-          alt="Mystical Orb"
-          className="orb-image"
+        {/* Rotating Globe Layer */}
+        <motion.div
+          className="globe-layer"
           animate={{
             rotate: 360,
+            filter: isRevealing
+              ? [
+                  'drop-shadow(0 0 40px rgba(138, 43, 226, 0.6)) brightness(1)',
+                  'drop-shadow(0 0 80px rgba(212, 175, 55, 1)) brightness(1.3)',
+                  'drop-shadow(0 0 60px rgba(0, 229, 255, 0.8)) brightness(1.2)',
+                  'drop-shadow(0 0 100px rgba(255, 215, 0, 1)) brightness(1.4)',
+                  'drop-shadow(0 0 40px rgba(138, 43, 226, 0.6)) brightness(1)',
+                ]
+              : 'drop-shadow(0 0 40px rgba(138, 43, 226, 0.6)) brightness(1)',
           }}
           transition={{
-            duration: isRevealing ? 2 : 30,
-            repeat: Infinity,
-            ease: 'linear',
+            rotate: {
+              duration: isRevealing ? 2 : 30,
+              repeat: Infinity,
+              ease: 'linear',
+            },
+            filter: {
+              duration: 2.5,
+              ease: 'easeInOut',
+            },
           }}
-        />
+        >
+          <img
+            src="/globe_isolated.png"
+            alt="Mystical Globe"
+            className="globe-image"
+          />
+        </motion.div>
+
+        {/* Static Holder Layer */}
+        <div className="holder-layer">
+          <img
+            src="/holder_isolated.png"
+            alt="Crystal Ball Holder"
+            className="holder-image"
+          />
+        </div>
       </motion.div>
 
       <motion.div
