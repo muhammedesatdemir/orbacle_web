@@ -1,0 +1,33 @@
+{
+  "appName": "Orbacle",
+  "subtitle": "Gaze into the mystic orb and ask your question...",
+  "placeholder": "What wisdom do you seek?",
+  "askButton": "Reveal My Fate",
+  "revealing": "The orb speaks...",
+  "history": "History",
+  "noHistory": "No questions asked yet. The orb awaits...",
+  "clearHistory": "Clear History",
+  "footer": "The orb sees all, knows all, tells some.",
+  "answers": {
+    "yes": "Yes, the stars align in your favor.",
+    "no": "No, the cosmos say otherwise.",
+    "maybe": "Perhaps... the mists are unclear.",
+    "certainly": "Certainly, without a shadow of doubt.",
+    "doubtful": "Doubtful, the energies resist.",
+    "askAgain": "Ask again when the moon is full.",
+    "likely": "It is likely, the signs are promising.",
+    "unlikely": "Unlikely, but fate is ever-changing.",
+    "absolutely": "Absolutely! The universe conspires in your favor!",
+    "neverInAMillionYears": "Never in a million years shall this come to pass.",
+    "theFutureIsUnclear": "The future is unclear, shrouded in cosmic fog.",
+    "signsPointToYes": "All signs point to yes.",
+    "dontCountOnIt": "Don't count on it, seeker.",
+    "withoutADoubt": "Without a doubt, this shall be.",
+    "concentrateAndAskAgain": "Concentrate and ask again.",
+    "mySourcesSayNo": "My mystical sources say no.",
+    "outlookGood": "Outlook good, the stars smile upon you.",
+    "veryDoubtful": "Very doubtful, I'm afraid.",
+    "itIsDecidedlySo": "It is decidedly so.",
+    "betterNotTellYouNow": "Better not tell you now..."
+  }
+}

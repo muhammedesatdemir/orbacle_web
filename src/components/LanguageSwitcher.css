@@ -1,0 +1,29 @@
+.lang-switcher {
+  display: flex;
+  gap: 0.25rem;
+  background: rgba(26, 0, 51, 0.6);
+  padding: 0.25rem;
+  border-radius: 8px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.lang-btn {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  background: transparent;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.lang-btn:hover {
+  color: var(--text-light);
+  background: rgba(212, 175, 55, 0.1);
+}
+
+.lang-btn.active {
+  color: var(--deep-purple);
+  background: var(--primary-gold);
+}

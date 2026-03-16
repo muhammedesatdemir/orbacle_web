@@ -1,0 +1,33 @@
+{
+  "appName": "Orbacle",
+  "subtitle": "Mistik küreye bak ve sorunu sor...",
+  "placeholder": "Hangi bilgeliği arıyorsun?",
+  "askButton": "Kaderimi Göster",
+  "revealing": "Küre konuşuyor...",
+  "history": "Geçmiş",
+  "noHistory": "Henüz soru sorulmadı. Küre bekliyor...",
+  "clearHistory": "Geçmişi Temizle",
+  "footer": "Küre her şeyi görür, her şeyi bilir, bazılarını söyler.",
+  "answers": {
+    "yes": "Evet, yıldızlar senin lehinize hizalanıyor.",
+    "no": "Hayır, kozmos başka türlü söylüyor.",
+    "maybe": "Belki... sisler belirsiz.",
+    "certainly": "Kesinlikle, hiç şüphe yok.",
+    "doubtful": "Şüpheli, enerjiler direniyor.",
+    "askAgain": "Dolunay olunca tekrar sor.",
+    "likely": "Muhtemel, işaretler umut verici.",
+    "unlikely": "Pek olası değil, ama kader değişkendir.",
+    "absolutely": "Kesinlikle! Evren senin lehine komplo kuruyor!",
+    "neverInAMillionYears": "Milyon yılda bile bu gerçekleşmeyecek.",
+    "theFutureIsUnclear": "Gelecek belirsiz, kozmik sisle örtülü.",
+    "signsPointToYes": "Tüm işaretler evete işaret ediyor.",
+    "dontCountOnIt": "Buna güvenme, arayan.",
+    "withoutADoubt": "Hiç şüphesiz, bu olacak.",
+    "concentrateAndAskAgain": "Konsantre ol ve tekrar sor.",
+    "mySourcesSayNo": "Mistik kaynaklarım hayır diyor.",
+    "outlookGood": "Görünüm iyi, yıldızlar sana gülümsüyor.",
+    "veryDoubtful": "Çok şüpheli, korkarım.",
+    "itIsDecidedlySo": "Kesinlikle öyle.",
+    "betterNotTellYouNow": "Şimdi söylemesem daha iyi..."
+  }
+}
