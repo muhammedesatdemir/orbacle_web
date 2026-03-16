@@ -19,6 +19,10 @@ i18n.use(initReactI18next).init({
 
 i18n.on('languageChanged', (lng) => {
   localStorage.setItem('orbacle_language', lng)
+  document.documentElement.lang = lng
 })
+
+// Set initial language on document
+document.documentElement.lang = savedLanguage
 
 export default i18n

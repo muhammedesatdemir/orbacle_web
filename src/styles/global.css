@@ -15,8 +15,8 @@
   --bg-dark: #0a0012;
   --card-bg: rgba(26, 0, 51, 0.85);
 
-  --font-display: 'Cinzel', 'Times New Roman', serif;
-  --font-body: 'Crimson Text', Georgia, serif;
+  --font-display: 'Cinzel', 'Cormorant Garamond', 'Palatino Linotype', serif;
+  --font-body: 'Crimson Text', 'Cormorant Garamond', Georgia, serif;
 }
 
 html {
@@ -72,4 +72,12 @@ input, textarea {
 ::selection {
   background: var(--primary-gold);
   color: var(--deep-purple);
+}
+
+/* Turkish locale font fix - Cinzel doesn't support Turkish İ/ı */
+html[lang="tr"] .answer-text,
+html[lang="tr"] .subtitle,
+html[lang="tr"] .ask-button {
+  font-family: 'Cormorant Garamond', 'Palatino Linotype', serif;
+  font-weight: 600;
 }
