@@ -1,12 +1,17 @@
 .answer-card {
   position: relative;
-  max-width: 450px;
-  padding: 2rem 2.5rem;
+  width: 100%;
+  max-width: 520px;
+  min-height: 80px;
+  padding: 1.5rem 2.5rem;
   background: var(--card-bg);
   border: 1px solid rgba(212, 175, 55, 0.3);
   border-radius: 16px;
   backdrop-filter: blur(10px);
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .answer-glow {
@@ -39,24 +44,28 @@
 
 .answer-text {
   font-family: var(--font-display);
-  font-size: 1.2rem;
-  line-height: 1.6;
+  font-size: clamp(0.95rem, 2.5vw, 1.25rem);
+  line-height: 1.5;
   color: var(--text-light);
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 @media (max-width: 768px) {
   .answer-card {
     margin: 0 1rem;
-    padding: 1.5rem;
+    padding: 1.25rem 1.5rem;
+    min-height: 70px;
+    max-width: 100%;
   }
 
   .answer-text {
-    font-size: 1rem;
+    font-size: clamp(0.9rem, 3.5vw, 1.1rem);
   }
 
   .answer-icon {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }

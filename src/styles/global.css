@@ -15,8 +15,8 @@
   --bg-dark: #0a0012;
   --card-bg: rgba(26, 0, 51, 0.85);
 
-  --font-display: 'Cinzel', serif;
-  --font-body: 'Crimson Text', serif;
+  --font-display: 'Cinzel', 'Times New Roman', serif;
+  --font-body: 'Crimson Text', Georgia, serif;
 }
 
 html {
